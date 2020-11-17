@@ -1,0 +1,7 @@
+#node modules
+node_modules/
+
+#environment vars
+.env
+
+.vercel
