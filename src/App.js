@@ -7,8 +7,8 @@ import About from './components/pages/AboutPage/About';
 import Profile from './components/pages/ProfilePage/Profile';
 import Recipes from './components/pages/Recipes/Recipes';
 import Footer from './components/pages/Footer/Footer';
-import Form from './components/pages/SignupPage/Form';
-import Login from './components/pages/Login/';
+import Signup from './components/pages/Signup/Signup';
+import Login from './components/pages/Login/Login';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Route path='/About' component={About}/>
       <Route path='/Recipes' component={Recipes}/>
       <Route path='/Profile' component={Profile}/>
-      <Route path='/Form' component={Form}/>
+      <Route path='/Signup' component={Signup}/>
       <Route path='/Login' component={Login}/> 
       </Switch>
       <Footer />
