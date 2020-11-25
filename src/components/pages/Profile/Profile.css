@@ -1,0 +1,20 @@
+@media screen and (max-width:
+991px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 
+768px) {
+    .profile-text-wrapper{
+        padding-bottom: 65px;
+
+    }
+
+.col {
+    max-width: 100%;
+    flex-basis: 100%;
+    }
+}
