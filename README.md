@@ -2,8 +2,7 @@ Bespoke
 Bespoke App allows users to create cocktail recipes and search cocktail recipes
 
 1. Working Prototype
-You can access a working prototype of the React app here: https://nomnoms-app.vercel.app/ and Node app here: https://nomnoms-app.herokuapp.com/
-
+You can access a working prototype of the React app here: https://-app.vercel.app/ and Node app here: https://stark-river-56520.herokuapp.com/
 2. User Stories
 This app is for two types of users: a visitor and a logged-in user
 
