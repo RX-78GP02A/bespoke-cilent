@@ -1,29 +1,45 @@
-# Getting Started with Create React App
+Bespoke
+Bespoke App allows users to create cocktail recipes and search cocktail recipes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Working Prototype
+You can access a working prototype of the React app here: https://nomnoms-app.vercel.app/ and Node app here: https://nomnoms-app.herokuapp.com/
 
-## Available Scripts
+2. User Stories
+This app is for two types of users: a visitor and a logged-in user
 
-In the project directory, you can run:
+Landing/Home Page
+As a visitor
+I want to understand what I can do with this app (or sign up, or log in) so I can decide if I want to use it
+Login Page
+As a returning register user
+I want to enter my password and username to use this app, so I can have access to my account.
+Sign Up/Registration Page
+As a visitor
+I want to register to use this app so I can create a personal account.
 
-### `npm start`
+3. Functionality
+The app's functionality includes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Every User has the ability to create an account
+Every User has the ability to post a cocktail recipe
+Every User has the ability to view a collection of exisiting cocktails
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. Technology
+Front-End: HTML5, CSS3, JavaScript ES6, React
+Back-End: Node.js, Express.js, Mocha, Chai, RESTful API Endpoints, PostgreSQL
+Development Environment: Vercel, Heroku, DBeaver
 
-### `npm test`
+<img width="972" alt="Screen Shot 2020-12-15 at 3 23 20 PM" src="https://user-images.githubusercontent.com/67432727/102274739-5ab8cb80-3ef2-11eb-98ed-9bf9b6a88607.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="974" alt="Screen Shot 2020-12-15 at 3 23 54 PM" src="https://user-images.githubusercontent.com/67432727/102274797-715f2280-3ef2-11eb-9e5f-438ac97fd8b1.png">
 
-### `npm run build`
+<img width="966" alt="Screen Shot 2020-12-15 at 3 24 26 PM" src="https://user-images.githubusercontent.com/67432727/102274818-7ae88a80-3ef2-11eb-9fbf-c9abcfe219e8.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="703" alt="Screen Shot 2020-12-15 at 3 25 21 PM" src="https://user-images.githubusercontent.com/67432727/102274844-850a8900-3ef2-11eb-9c4f-49afae764467.png">
 
+
+<img width="500" alt="Screen Shot 2020-12-15 at 3 26 04 PM" src="https://user-images.githubusercontent.com/67432727/102274870-8f2c8780-3ef2-11eb-872d-7d79e9391ed3.png">
+
+
+<img width="497" alt="Screen Shot 2020-12-15 at 3 26 51 PM" src="https://user-images.githubusercontent.com/67432727/102274895-98b5ef80-3ef2-11eb-8b71-b075109561c5.png">
