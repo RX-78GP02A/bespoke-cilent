@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Recipes from './components/Recipes/Recipes';
+import Post from './components/Post/Post';
+import Profile from './components/Profile/Profile';
+import Footer from './components/Footer/Footer';
+import Form from './components/Signup/Form';
+import LoginForm from './components/Login/LoginForm';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<Navbar />
+			<Switch>
+				<Route path='/' exact component={Home} />
+				<Route path='/About' component={About} />
+				<Route path='/Recipes' component={Recipes} />
+				<Route path='/Post' component={Post} />
+				<Route path='/Profile' component={Profile} />
+				<Route path='/Form' component={Form} />
+				<Route path='/LoginForm' component={LoginForm} />
+			</Switch>
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
