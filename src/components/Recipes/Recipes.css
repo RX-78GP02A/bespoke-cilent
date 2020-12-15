@@ -1,0 +1,40 @@
+.recipes {
+    padding: 10px;
+    padding-left: 0px;
+    background: black;
+    opacity: 0.8;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.browse {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#main-input {
+    width: 200px;
+    padding: 10px;
+}
+
+#search-btn {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.results, .browse, .main-search-form {
+    text-align: center;
+}
+
+.recipes-search-result {
+    padding: 30px;
+}
+
+@media screen and (min-width:550px) {
+
+    .recipes-search-result {
+        font-size: larger;
+    }
+
+}
