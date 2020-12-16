@@ -34,9 +34,11 @@ Development Environment: Vercel, Heroku, DBeaver
 
 <img width="966" alt="Screen Shot 2020-12-15 at 3 24 26 PM" src="https://user-images.githubusercontent.com/67432727/102274818-7ae88a80-3ef2-11eb-9fbf-c9abcfe219e8.png">
 
+<img width="500" alt="Screen Shot 2020-12-16 at 6 34 16 PM" src="https://user-images.githubusercontent.com/67432727/102419818-9a54e580-3fce-11eb-883e-22ef65faeaa8.png">
 
 <img width="703" alt="Screen Shot 2020-12-15 at 3 25 21 PM" src="https://user-images.githubusercontent.com/67432727/102274844-850a8900-3ef2-11eb-9c4f-49afae764467.png">
 
+<img width="499" alt="Screen Shot 2020-12-16 at 6 35 05 PM" src="https://user-images.githubusercontent.com/67432727/102419845-ac368880-3fce-11eb-8552-06f1a317ee90.png">
 
 <img width="500" alt="Screen Shot 2020-12-15 at 3 26 04 PM" src="https://user-images.githubusercontent.com/67432727/102274870-8f2c8780-3ef2-11eb-872d-7d79e9391ed3.png">
 
