@@ -103,7 +103,7 @@ class Post extends Component {
         })
         .then(() => {
             alert(`Thank you! Your recipe has been successfully posted!`);
-            this.props.history.push('/collections');
+            this.props.history.push('/recipes');
         })
         .catch(error => {
             console.error({ error });
