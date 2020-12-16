@@ -86,46 +86,6 @@ function Navbar() {
 									Profile
 								</Link>
 							</li>
-
-							<li className='navigation_button'>
-								{button ? (
-									<Link
-										to='/LoginForm'
-										className='btn-link'
-										onClick={closeMobileMenu}>
-										<Button buttonStyle='btn--outline'>LOGIN</Button>
-									</Link>
-								) : (
-									<Link
-										to='/LoginForm'
-										className='btn-link'
-										onClick={closeMobileMenu}>
-										<Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-											LOGIN
-										</Button>
-									</Link>
-								)}
-							</li>
-
-							<li className='navigation_button'>
-								{button ? (
-									<Link
-										to='/Form'
-										className='btn-link'
-										onClick={closeMobileMenu}>
-										<Button buttonStyle='btn--outline'>SIGN UP</Button>
-									</Link>
-								) : (
-									<Link
-										to='/Form'
-										className='btn-link'
-										onClick={closeMobileMenu}>
-										<Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-											SIGN UP
-										</Button>
-									</Link>
-								)}
-							</li>
 						</ul>
 					</div>
 				</div>

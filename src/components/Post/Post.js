@@ -87,7 +87,7 @@ class Post extends Component {
            ingredients: e.target['ingredients-input'].value,
            instructions: e.target['instructions-input'].value
         };
-        // eslint-disable-next-line no-undef
+        
         fetch(`${config.API_ENDPOINT}/postrecipe`, {
             method: 'POST',
             headers: {

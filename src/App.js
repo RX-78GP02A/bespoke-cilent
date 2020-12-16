@@ -8,8 +8,7 @@ import Recipes from './components/Recipes/Recipes';
 import Post from './components/Post/Post';
 import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/Footer';
-import Form from './components/Signup/Form';
-import LoginForm from './components/Login/LoginForm';
+
 
 function App() {
 	return (
@@ -21,8 +20,6 @@ function App() {
 				<Route path='/Recipes' component={Recipes} />
 				<Route path='/Post' component={Post} />
 				<Route path='/Profile' component={Profile} />
-				<Route path='/Form' component={Form} />
-				<Route path='/LoginForm' component={LoginForm} />
 			</Switch>
 			<Footer />
 		</div>
