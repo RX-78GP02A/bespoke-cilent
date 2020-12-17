@@ -28,7 +28,7 @@ export const homeObjectC = {
     mainText: true,
     mainTextDescription: true,
     mainHeader: 'Bespoke Profile',
-    headline: 'Create Your Profile',
+    headline: 'View our list of cocktails',
     description: "Browse a list of Bespoke's Recipes.",
     hasButton: true,
     buttonLabel: 'Get Started',
