@@ -78,14 +78,6 @@ function Navbar() {
 									Post
 								</Link>
 							</li>
-							<li className='navigation_item'>
-								<Link
-									to='/Profile'
-									className='navigation_links'
-									onClick={closeMobileMenu}>
-									Profile
-								</Link>
-							</li>
 						</ul>
 					</div>
 				</div>

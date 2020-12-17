@@ -17,7 +17,7 @@ export const homeObjectB = {
     mainTextDescription: true,
     mainHeader: 'About Bespoke!',
     headline: "It's Just Drinks" ,
-    description: "Bespoke was created for the cocktail enthusiast and bartender; it's a one stop shop that allows it's user to reference cocktails as well as add cocktail recipes for future use.",
+    description: "Bespoke was created for the cocktail enthusiast and bartender; it's a one stop shop that allows its user to reference cocktails as well as add cocktail recipes for future use.",
     buttonLabel: '',
     img: 'images/jupiter_jazz.jpg',
     alt: ''
@@ -27,11 +27,11 @@ export const homeObjectC = {
     mainBackground: false,
     mainText: true,
     mainTextDescription: true,
-    mainHeader: 'Bespoke Profile',
-    headline: 'View our list of cocktails',
+    mainHeader: 'Bespoke Recipes',
+    headline: 'View or post to our list of cocktails',
     description: "Browse a list of Bespoke's Recipes.",
     hasButton: true,
-    buttonLabel: 'Get Started',
+    buttonLabel: 'View Recipes',
     img: 'images/trio.jpg',
     alt: ''
 }
