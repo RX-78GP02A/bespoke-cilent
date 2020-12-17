@@ -17,7 +17,7 @@ function Hero({
 }) {
   function renderButton() {
     return hasButton ? (
-      <Link to="/Form">
+      <Link to="/Recipes">
         <Button buttonSize="btn--wide" buttonColor="blue">
           {buttonLabel}
         </Button>

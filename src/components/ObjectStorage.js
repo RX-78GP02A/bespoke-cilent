@@ -29,7 +29,7 @@ export const homeObjectC = {
     mainTextDescription: true,
     mainHeader: 'Bespoke Profile',
     headline: 'Create Your Profile',
-    description: 'Create your cocktail profile below.',
+    description: "Browse a list of Bespoke's Recipes.",
     hasButton: true,
     buttonLabel: 'Get Started',
     img: 'images/trio.jpg',

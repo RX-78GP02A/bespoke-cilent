@@ -44,6 +44,7 @@ class Recipes extends Component {
                 <section className="collection">
                     <section className="collection-search-section">
                     <h3 className="browse">Browse our Recipes</h3>
+                    
                         <form aria-label="Search Liquor Recipe" className="main-search-form" onSubmit={this.handleSubmit}>
                             <select id="main-input" name="main-input">
                                 <option value="Absinthe">Absinthe</option>
@@ -58,6 +59,7 @@ class Recipes extends Component {
                             </select>
                             <button type="submit" id="search-btn" onClick={this.props.onClick} aria-label="Submit">Search</button>
                         </form>
+                        </section>
                         <section className="results">
                             <div>{this.state.results.map((result) => (
                                 <div key={result.drink_name} className="collection-search-result">
@@ -77,10 +79,10 @@ class Recipes extends Component {
                             ))}</div>
                         </section> 
                     </section>
-                </section>
+               
             </ErrorBoundary>
         );
-    }
+    };
 }
 
 export default Recipes;

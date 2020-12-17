@@ -1,5 +1,5 @@
 .recipes {
-    padding: 10px;
+    padding: 20px;
     padding-left: 0px;
     background: black;
     opacity: 0.8;
@@ -9,7 +9,7 @@
 
 .browse {
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #main-input {
@@ -28,7 +28,8 @@
 }
 
 .recipes-search-result {
-    padding: 30px;
+    padding: 40px;
+    font-size: 35px;
 }
 
 @media screen and (min-width:550px) {
